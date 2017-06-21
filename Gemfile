@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'pg', '0.12.2'
-
+gem 'bootstrap-sass', '2.0.0'
 ruby  '1.9.3'
 
 group :development do
@@ -18,6 +18,7 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '3.2.4'
+  
   gem 'coffee-rails', '3.2.2'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -27,7 +28,7 @@ group :assets do
 end
 
 group :test do
-	gem 'rspec-rails', '2.9.0'
+gem 'rspec-rails', '2.9.0'
 gem 'capybara', '1.1.2'
 gem 'rb-inotify', '0.8.8'
 gem 'guard-spork', '0.3.2'
