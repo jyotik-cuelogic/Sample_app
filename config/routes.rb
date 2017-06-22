@@ -1,5 +1,7 @@
 SampleApp::Application.routes.draw do
-   
+  get "users/show"
+
+resources :users
 
   #get "static_pages/help"
   #get "static_pages/about"
